@@ -11,11 +11,19 @@ module.exports = {
         "./app.vue",
     ],
     theme: {
-
         extend: {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                primary: {
+                    DEFAULT: '#E32636',
+                },
+                secondary: {
+                    DEFAULT: '#0A0133',
+                },
+                white: '#F5F5F5',
+            }
         },
     },
     plugins: [],
