@@ -4,7 +4,7 @@
             <p class="text-xs text-secondary text-center">
                 <a
                         href="https://made-in-antonovka.ru"
-                        class="text-secondary text-opacity-75 text-sm hover:underline"
+                        class="text-primary text-opacity-75 text-sm transition hover:underline hover:text-opacity-100"
                 >made-in-antonovka.ru</a>
                 {{ yearsLabel }}
             </p>

@@ -1,6 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
-
 export default defineNuxtConfig({
     app: {
         head: {
@@ -14,8 +13,11 @@ export default defineNuxtConfig({
                     href: 'https://fonts.bunny.net/css?family=nunito:400,400i,600,600i,800,800i',
                 },
             ],
+            htmlAttrs: {
+                class: 'h-full',
+            },
             bodyAttrs: {
-                class: 'bg-white',
+                class: 'h-full bg-white',
             },
         },
     },

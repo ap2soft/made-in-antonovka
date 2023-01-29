@@ -1,25 +1,25 @@
 <template>
-    <div class="flex flex-col min-h-screen md:mx-auto md:max-w-lg">
-        <Navbar />
+    <div class="h-full flex flex-col md:mx-auto md:max-w-lg">
+        <TheNavbar class="shrink-0" />
 
-        <main class="flex-1">
+        <main class="grow shrink-0 h-0">
             <NuxtPage />
         </main>
 
-        <Footer />
+        <TheFooter class="shrink-0" />
     </div>
 </template>
 
 <script setup lang="ts">
-import Navbar from "~/components/Navbar.vue";
-import Footer from "~/components/Footer.vue";
+import TheNavbar from "~/components/TheNavbar.vue";
+import TheFooter from "~/components/TheFooter.vue";
 
 const websiteTitle = 'Сделано в Антоновке' // TODO: Add i18n
 
 useHead({
     titleTemplate: (pageTitle) => pageTitle ? `${pageTitle} - ${websiteTitle}` : websiteTitle,
     meta: [
-        { name: 'description', content: 'Фигурки из дерева, семейные пазлы, подарок.' },
+        { name: 'description', content: 'фигурки из дерева, семейные пазлы, деревянные фигурки, оригинальный подарок' },
     ],
 })
 </script>
