@@ -1,9 +1,12 @@
 <template>
     <div class="h-full">
+        <h1 class="text-center font-semibold uppercase text-xl text-secondary">
+            Фигурки-пазлы из дерева
+        </h1>
+
         <div class="px-2">
-            <p class="mt-2 text-secondary/80 text-center">
-                Ручная работа.
-                Символизируют семью.
+            <p class="mt-2 text-secondary/70 text-center">
+                Ручная работа. Символизируют семью.
                 <br class="md:hidden">
                 Количество детишек зависит от вас.
                 <br class="md:hidden">
@@ -18,7 +21,7 @@
                     tag="section"
                     :has-track="false"
                     class="h-full"
-                    aria-label="My Favorite Images"
+                    aria-label="Образцы готовых фигурок"
             >
                 <SplideTrack class="h-full">
                     <SplideSlide v-for="item in items">
@@ -32,15 +35,10 @@
                                         :alt="item.description_ru"
                                 >
 
-                                <div
-                                        class="absolute left-4 bottom-4 bg-white text-primary opacity-60 rounded-lg shadow-md px-4 py-2 transition hover:opacity-100"
-                                >
-                                    <span class="text-xl font-bold">{{ item.price }}</span>
-                                    <span class="text-sm">₽</span>
-                                </div>
+                                <PriceBadge :price="item.price" />
 
                                 <div
-                                        class="absolute right-4 bottom-4 bg-white text-primary font-bold opacity-60 rounded-lg shadow-md px-4 py-2 transition hover:opacity-100"
+                                        class="absolute right-4 bottom-4 bg-white text-primary text-sm font-bold opacity-80 rounded-full shadow-md px-3 py-4"
                                 >
                                     №{{ item.id }}
                                 </div>
@@ -65,16 +63,9 @@
             </Splide>
         </div>
         <div class="mt-4 px-4">
-            <p class="text-center">Чтобы сделать заказ напишите мне в WhatsApp или Telegram</p>
-
-            <div class="mt-2 flex justify-center gap-4">
-                <a href="https://wa.me/79051763311" class="" target="_blank">
-                    <WhatsAppIcon class="h-8" />
-                </a>
-                <a href="https://t.me/andreich1980/" class="" target="_blank">
-                    <TelegramIcon class="h-8" />
-                </a>
-            </div>
+            <p class="text-sm text-center">
+                Чтобы сделать заказ, отправьте номер фигурки мне в WhatsApp или Telegram.
+            </p>
         </div>
     </div>
 </template>
@@ -84,8 +75,6 @@ import { Options, Splide, SplideSlide, SplideTrack } from '@splidejs/vue-splide'
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/vue/24/solid'
 import '@splidejs/vue-splide/css/core';
 import items from 'assets/data/examples.json';
-import WhatsAppIcon from "~/components/icons/WhatsAppIcon.vue";
-import TelegramIcon from "~/components/icons/TelegramIcon.vue";
 
 useHead({
     title: 'Фигурки из дерева',
