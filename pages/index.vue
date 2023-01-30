@@ -64,6 +64,18 @@
                 </div>
             </Splide>
         </div>
+        <div class="mt-4 px-4">
+            <p class="text-center">Чтобы сделать заказ напишите мне в WhatsApp или Telegram</p>
+
+            <div class="mt-2 flex justify-center gap-4">
+                <a href="https://wa.me/79051763311" class="" target="_blank">
+                    <WhatsAppIcon class="h-8" />
+                </a>
+                <a href="https://t.me/andreich1980/" class="" target="_blank">
+                    <TelegramIcon class="h-8" />
+                </a>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -72,6 +84,8 @@ import { Options, Splide, SplideSlide, SplideTrack } from '@splidejs/vue-splide'
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/vue/24/solid'
 import '@splidejs/vue-splide/css/core';
 import items from 'assets/data/examples.json';
+import WhatsAppIcon from "~/components/icons/WhatsAppIcon.vue";
+import TelegramIcon from "~/components/icons/TelegramIcon.vue";
 
 useHead({
     title: 'Фигурки из дерева',
