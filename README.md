@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a84895bf-bd88-4035-9f91-b39458b37dd1/deploy-status)](https://app.netlify.com/sites/made-in-antonovka/deploys)
+
 # Made In Antonovka website
 
 [made-in-antonovka.ru](https://made-in-antonovka.ru)
