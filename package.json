@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@heroicons/vue": "^2.0.14",
-    "@splidejs/vue-splide": "^0.6.12"
+    "@splidejs/vue-splide": "^0.6.12",
+    "yandex-metrika-module-nuxt3": "^1.5.3"
   }
 }

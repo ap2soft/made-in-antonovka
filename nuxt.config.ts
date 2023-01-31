@@ -28,7 +28,15 @@ export default defineNuxtConfig({
             autoprefixer: {},
         },
     },
-    modules: [],
+    modules: [
+        [
+            'yandex-metrika-module-nuxt3',
+            {
+                id: '92270729',
+                webvisor: true,
+            }
+        ]
+    ],
     nitro: {
         preset: 'netlify',
     }
