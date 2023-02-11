@@ -1,96 +1,96 @@
 [
     {
-        "id": "01",
+        "id": "010",
         "title_ru": "Лисички",
         "description_ru": "Семья лисичек с одним ребёнком",
         "title_en": "Foxes",
         "description_en": "Foxes family with one kid",
-        "filename": "01.jpg",
+        "filename": "010.jpg",
         "price": 800,
         "bestseller": true
     },
     {
-        "id":  "06",
+        "id":  "060",
         "title_ru": "Лисички",
         "description_ru": "Семья лисичек с двумя детёнышами",
         "title_en": "Foxes",
         "description_en": "Foxes family with two kids",
-        "filename": "06.jpg",
+        "filename": "060.jpg",
         "price": 900,
         "bestseller": true
     },
     {
-        "id":  "02",
+        "id":  "020",
         "title_ru": "Черепашки",
         "description_ru": "Семья черепашек с одним ребёнком",
         "title_en": "Turtles",
         "description_en": "Turtles family with one kid",
-        "filename": "02.jpg",
+        "filename": "020.jpg",
         "price": 800,
         "new": true
     },
     {
-        "id":  "03",
+        "id":  "030",
         "title_ru": "Мышки",
         "description_ru": "Семья мышек с одним ребёнком",
         "title_en": "Mice",
         "description_en": "Mice family with one kid",
-        "filename": "03.jpg",
+        "filename": "030.jpg",
         "price": 800
     },
     {
-        "id":  "04",
+        "id":  "040",
         "title_ru": "Зайчики",
         "description_ru": "Семья зайчиков с одним ребёнком",
         "title_en": "Bunnies",
         "description_en": "Bunnies family with one kid",
-        "filename": "04.jpg",
+        "filename": "040.jpg",
         "price": 800
     },
     {
-        "id":  "05",
+        "id":  "050",
         "title_ru": "Зайчики",
         "description_ru": "Семья зайчиков с двумя детьми",
         "title_en": "Bunnies",
         "description_en": "Bunnies family with two kids",
-        "filename": "05.jpg",
+        "filename": "050.jpg",
         "price": 900,
         "new": true
     },
     {
-        "id":  "07",
+        "id":  "070",
         "title_ru": "Медведи",
         "description_ru": "Семья медведей с двумя медвежатами",
         "title_en": "Bears",
         "description_en": "Bears family with two kids",
-        "filename": "07.jpg",
+        "filename": "070.jpg",
         "price": 900
     },
     {
-        "id":  "08",
+        "id":  "080",
         "title_ru": "Медведи",
         "description_ru": "Медведица с тремя детьми",
         "title_en": "Bears",
         "description_en": "Mother Bear with 3 kids",
-        "filename": "08.jpg",
+        "filename": "080.jpg",
         "price": 900
     },
     {
-        "id":  "09",
+        "id":  "090",
         "title_ru": "Совушки",
         "description_ru": "Семья сов с двумя детьми",
         "title_en": "Owls",
         "description_en": "Owls family with two kids",
-        "filename": "09.jpg",
+        "filename": "090.jpg",
         "price": 900
     },
     {
-        "id":  "10",
+        "id":  "100",
         "title_ru": "Котики",
         "description_ru": "Семья котиков с двумя детьми",
         "title_en": "Cats",
         "description_en": "Cats family with two kids",
-        "filename": "10.jpg",
+        "filename": "100.jpg",
         "price": 900
     }
 ]
