@@ -67,6 +67,16 @@
         "price": 900
     },
     {
+        "id":  "071",
+        "title_ru": "Медведи",
+        "description_ru": "Семья медведей",
+        "title_en": "Bears",
+        "description_en": "Bears family",
+        "filename": "071.jpg",
+        "price": 600,
+        "new": true
+    },
+    {
         "id":  "080",
         "title_ru": "Медведи",
         "description_ru": "Медведица с тремя детьми",
